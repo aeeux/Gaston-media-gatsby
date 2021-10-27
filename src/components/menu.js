@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 // Framer motion
 import { motion, AnimatePresence } from "framer-motion"
 //Gatby Image
-import { Image } from "../components/gatsby-images/image"
+
 //Data
 import menuList from "../data/products.json"
 //icons
@@ -151,7 +151,7 @@ const List = ({
             </h2>
           </motion.div>
           <div className="thumbnail" style={{ left: thumbnailPosition }}>
-            <Image src={src} />
+            
             <motion.div
               variants={lineGrow}
               transition={{ ...transition, duration: 1 }}
