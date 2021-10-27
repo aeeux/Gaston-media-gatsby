@@ -2,6 +2,9 @@
     font-size: 14em;
     padding-left: 15%;
     margin-top: -2em;
+    @media (max-width: 2460px) {
+        margin-top: 0.75rem;
+      }
 }
 .heading-a{
     font-size: 14em;
