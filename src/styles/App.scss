@@ -11,6 +11,15 @@
   box-sizing: border-box;
 }
 
+#app {
+  margin: auto;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  max-width: 1700px;
+  @media (min-width: $layout-breakpoint-large) {}
+}
+
 html,
 body {
   height: 100%;
@@ -20,7 +29,7 @@ body {
   height: 100%;
   font-family: "Poppins";
   font-size: 16px;
-  background-color: #fff;
+  background-color: $background;
   color: $text;
 }
 
@@ -62,7 +71,7 @@ small,
 
 a {
   text-decoration: none;
-  color: $black;
+  color: $background;
   transition: ease-in-out 0.2s;
 }
 
@@ -92,13 +101,13 @@ ul {
     list-style: none;
     font-size: 0.875rem;
     font-weight: 300;
-    color: $secondary;
+    color: $text;
     margin-bottom: 0.5rem;
     @media (max-width: 680px) {
       margin-bottom: 0.75rem;
     }
     a {
-      color: $secondary;
+      color: $text;
     }
     &.disabled {
       opacity: 0.4;
