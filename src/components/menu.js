@@ -199,13 +199,13 @@ const Panels = () => {
           height: [0, window.innerHeight, 0],
           top: [null, 0, 0],
         }}
-        transition={{ ...transition, duration: 1, times: [0, 0.5, 1] }}
-        style={{ background: panelComplete ? "#e7e7de" : "#e7dee7" }}
+        transition={{ ...transition, duration: .8, times: [0, 0.5, 1] }}
+        style={{ background: panelComplete ? "#5541F8" : "#5541F8" }}
         className="left-panel-background"
       ></motion.div>
       <motion.div
         style={{
-          background: panelComplete ? "#e7e7de" : "#e7dee7",
+          background: panelComplete ? "#5541F8" : "#5541F8",
         }}
         initial={{ height: 0 }}
         animate={{
@@ -216,7 +216,7 @@ const Panels = () => {
           height: [0, window.innerHeight, 0],
           bottom: [null, 0, 0],
         }}
-        transition={{ ...transition, duration: 1, times: [0, 0.5, 1] }}
+        transition={{ ...transition, duration: .8, times: [0, 0.5, 1] }}
         className="right-panel-background"
         onAnimationComplete={() => {
           setPanelComplete(!panelComplete)
