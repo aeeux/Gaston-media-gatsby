@@ -1,6 +1,6 @@
 [
   {
-    "title": "Air Max 90",
+    "title": "Google, Inc",
     "id": "Air-Max-90",
     "leftLineFlex": 0,
     "rightLineFlex": 1,
@@ -9,7 +9,7 @@
     "src": 1
   },
   {
-    "title": "New Balance X-90",
+    "title": "Facebook, Inc",
     "id": "New-Balance-X-90",
     "leftLineFlex": 3,
     "rightLineFlex": 1,
@@ -18,7 +18,7 @@
     "src": 2
   },
   {
-    "title": "Air Max 97 x Off-White",
+    "title": "Netflix",
     "id": "Air-Max-97-x-Off-White",
     "leftLineFlex": 1,
     "rightLineFlex": 3,
@@ -27,7 +27,7 @@
     "src": 3
   },
   {
-    "title": "Yeezy 700 Geode",
+    "title": "General Motors",
     "id": "Yeezy-700-Geode",
     "leftLineFlex": 3,
     "rightLineFlex": 2,
