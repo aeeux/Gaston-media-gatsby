@@ -20,8 +20,7 @@ const Header = ({ menuState, setMenuState, setCursorHovered }) => {
             onMouseEnter={() => setCursorHovered(true)}
             onMouseLeave={() => setCursorHovered(false)}
           >
-            <span></span>
-            <span></span>
+            <h2>MENU</h2>
           </div>
         </div>
       </div>
