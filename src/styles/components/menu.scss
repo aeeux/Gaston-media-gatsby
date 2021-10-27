@@ -4,12 +4,12 @@
   width: 100%;
   z-index: 9;
   overflow: hidden;
-  background: #fff;
+  background: $text;
   .close,
   .menu-title {
     z-index: 1000;
     position: absolute;
-    color: $black;
+    color: $accent;
     top: 3rem;
     right: 5.8rem;
     display: flex;
@@ -41,12 +41,13 @@
         width: 100%;
         display: block;
         li {
-          color: $white;
+          color: $accent;
           position: relative;
           width: 100%;
           height: 115px;
           a {
             height: 100%;
+            color: $accent;
             .wrapper {
               height: 100%;
               display: flex;
@@ -56,6 +57,7 @@
                 z-index: 10;
                 &:hover {
                   color: black;
+                  transition: all .2s ease-in-out; 
                   -webkit-text-fill-color: white; /* Will override color (regardless of order) */
                   -webkit-text-stroke-width: 1px;
                   -webkit-text-stroke-color: black;
@@ -72,14 +74,14 @@
                 overflow: hidden;
                 position: absolute;
                 left: 30rem;
-                width: 7.6rem;
+                width: 20.6rem;
                 height: 5rem;
                 .mask {
-                  height: 100%;
+                  height: 20%;
                   width: 100%;
                   z-index: 8;
                   position: absolute;
-                  background: $white;
+                  background: $background;
                   top: 0;
                 }
                 img {
@@ -89,20 +91,11 @@
                   right: 0;
                 }
               }
-              .floating-image {
-                pointer-events: none;
-                width: 24rem;
-                position: absolute;
-                background-size: cover;
-                background-position: 50%;
-                z-index: 99;
-                overflow: hidden;
-              }
             }
             .line {
-              height: 1px;
+              height: 2px;
               width: 100%;
-              background: $black;
+              background: $background;
               margin-bottom: 0.8rem;
               position: relative;
               display: flex;
@@ -129,7 +122,7 @@
                   height: 6px;
                   width: 6px;
                   border-radius: 100%;
-                  background: $black;
+                  background: $background;
                   right: 0;
                 }
               }
@@ -137,14 +130,14 @@
                 &:after {
                   content: "";
                   position: absolute;
-                  height: 6px;
-                  width: 6px;
+                  height: 10px;
+                  width: 10px;
                   border-radius: 100%;
-                  background: $black;
+                  background: $background;
                 }
               }
               .mask {
-                background: $white;
+                background: $accent;
                 width: 100%;
                 height: 6px;
                 z-index: 9;
@@ -162,13 +155,13 @@
 }
 
 .left-panel-background {
-  height: 100vh;
+  height: 110vh;
   width: 50vw;
   position: absolute;
   z-index: 11;
 }
 .right-panel-background {
-  height: 100vh;
+  height: 110vh;
   width: 50vw;
   position: absolute;
   right: 0;
