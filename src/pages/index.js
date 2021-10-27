@@ -5,7 +5,7 @@ import SEO from "../components/seo"
 import Index from "../components/index/index"
 
 const IndexPage = () => (
-  <div>
+  <div id="app">
     <SEO title="Home" />
     <div className="banner">
       <div className="inner-banner">
