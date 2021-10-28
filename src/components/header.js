@@ -20,7 +20,7 @@ const Header = ({ menuState, setMenuState, setCursorHovered }) => {
             onMouseEnter={() => setCursorHovered(true)}
             onMouseLeave={() => setCursorHovered(false)}
           >
-            <h2>MENU</h2>
+            <h2 className="menu">MENU</h2>
           </div>
         </div>
       </div>
