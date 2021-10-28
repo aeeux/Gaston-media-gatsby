@@ -3,6 +3,7 @@ import SEO from "../components/seo"
 
 //components
 import Index from "../components/index/index"
+import Process from "../components/process"
 import AboutHome from "../components/aboutHome"
 
 const IndexPage = () => (
@@ -14,6 +15,7 @@ const IndexPage = () => (
       </div>
       <div>
         <AboutHome/>
+        <Process/>
       </div>
     </div>
   </div>
