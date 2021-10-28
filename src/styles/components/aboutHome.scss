@@ -26,8 +26,8 @@
     @media (min-width: $layout-breakpoint-xsmall) {
         font-size: 1em;
     }
-    @media (min-width: $layout-breakpoint-medium) {
-        font-size: 7.6em;
+    @media (min-width: $layout-breakpoint-xmedium) {
+        font-size: 6em;
     }
 }
 
@@ -58,24 +58,9 @@
     width: 70%;
     margin-left: 10%;
     margin-right: 20%;
-    padding-bottom: 25em;
+    padding-bottom: 15em;
 }
 
 
 
 
-
-
-.overall-div-process{
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-}
-
-
-.img-p{
-    width: 20%;
-    text-align: left;
-    padding: 0;
-    margin: 0;
-}
