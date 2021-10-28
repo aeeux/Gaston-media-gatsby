@@ -2,12 +2,14 @@
 
 .font{
     font-family: 'Inter', sans-serif;
+    padding-bottom: 50em;
 }
 
 .overall-div-process{
     display: flex;
     flex-direction: row;
     text-align: center;
+    margin-top: 50px;
 }
 
 .div-1{
@@ -16,24 +18,28 @@
 }
 
 .number-pro{
+    font-family: 'Inter', sans-serif;
     color: $accent-v2;
     -webkit-text-fill-color: transparent;
     font-weight: 900;
-    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: $accent-v2;
     font-size: 6em;
     margin: 0;
 }
 
 .title-pro{
+    font-family: 'Inter', sans-serif;
     margin: 0;
     color: $accent-v2;
+    font-weight: 200;
 }
 
 .div-1 p{
-    padding-left: 50%;
+    padding-left: 72%;
     font-weight: 200;
     font-size: 1em;
+    margin-top: 0.3em;
     }
 
     
