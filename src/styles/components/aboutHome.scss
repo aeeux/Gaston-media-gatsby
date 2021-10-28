@@ -3,18 +3,32 @@
 .heading-ab{
     color: $accent;
     font-size: 1.4em;
-    margin-left: 0.1em;
+    margin-left: 1em;
     text-align: left;
     margin-top: 6em;
+    @media (min-width: $layout-breakpoint-small) {
+        margin-left: 1.5em;
+    }
+    @media (min-width: $layout-breakpoint-medium) {
+        margin-left: 2em;
+    }
+    @media (min-width: $layout-breakpoint-large) {
+        margin-left: 0.1em;
+    }
 }
 
 .sub-heading-ab{
     color:  $accent-v2;
-    font-size: 7.6em;
     font-weight: 100;
     text-align: left;
     margin-left: 5rem;
     margin-top: 0.8em;
+    @media (min-width: $layout-breakpoint-xsmall) {
+        font-size: 1em;
+    }
+    @media (min-width: $layout-breakpoint-medium) {
+        font-size: 7.6em;
+    }
 }
 
 .sub-h-span{
