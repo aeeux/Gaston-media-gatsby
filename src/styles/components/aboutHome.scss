@@ -1,3 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 .heading-ab{
-    color: wheat;
+    color: $accent;
+    font-size: 1.4em;
+    margin-left: 0.2em;
+    text-align: left;
+    margin-top: 6em;
+}
+
+.sub-heading-ab{
+    color:  $accent-v2;
+    font-size: 7em;
+    font-weight: 100;
+    text-align: left;
+    margin-left: 5rem;
+}
+
+.sub-h-span{
+    display: flex;
+    flex-direction: column;
+}
+
+.about-p{
+    color: $text;
+    font-family: 'Inter', sans-serif;
+    font-weight: 200;
+    font-size: 1.7em;
+    margin-top: 3em;
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 20%;
+    padding-bottom: 10em;
+    line-height: 1.6;
+}
+
+.center{
+    text-align: center;
 }
