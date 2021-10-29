@@ -1,11 +1,41 @@
 .sub-heading-abc{
-    margin-top: 2em;
+    margin-top: 2rem;
     text-align: right;
 float: left;
 padding-left: 20%;
 font-size: 4.5em;
+padding-top: 1.2em;
 }
 
 .sub-h-span2{
     text-decoration: underline $accent;
+}
+
+.ninenine{
+    margin-top: 40px;
+}
+
+.flexing{
+    display: flex;
+    text-align: center;
+}
+
+.flex-other{
+    display: flex;
+    flex-direction: column;
+}
+
+.nam1{
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.nam2{
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.nam3{
+    padding-right: 30px;
+    padding-left: 30px;
 }
