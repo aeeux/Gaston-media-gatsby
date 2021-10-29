@@ -1,12 +1,14 @@
 .heading {
-    font-size: 14em;
-    margin-top: -2em;
+    margin-top: 1em;
+    font-size:10vw;
     @media (max-width: 2460px) {
-        margin-top: 0.75rem;
+        padding-left: 20%;
       }
 }
 .heading-a{
-    font-size: 14em;
-    padding-left: 55%;
-    margin-top: -6rem;
+    font-size:10vw;
+    margin-top: -2rem;
+    @media (min-width: 150px) {
+        padding-left: 65%;
+      }
 }
