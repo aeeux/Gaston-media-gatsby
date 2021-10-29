@@ -4,17 +4,6 @@
     font-family: 'Inter', sans-serif;
     padding-bottom: 50em;
 }
-
-
-* {
-    box-sizing: border-box;
-  }
-  
-  /* Set a background color */
-  body {
-    background-color: #474e5d;
-    font-family: Helvetica, sans-serif;
-  }
   
   /* The actual timeline (the vertical ruler) */
   .timeline {
@@ -29,7 +18,7 @@
     content: '';
     position: absolute;
     width: 6px;
-    background-color: white;
+    background-color: $accent-v2;
     top: 0;
     bottom: 0;
     left: 50%;
@@ -51,8 +40,8 @@
     width: 25px;
     height: 25px;
     right: -17px;
-    background-color: white;
-    border: 4px solid #FF9F55;
+    background-color: $background;
+    border: 4px solid $accent-v2;
     top: 15px;
     border-radius: 50%;
     z-index: 1;
@@ -79,7 +68,7 @@
     right: 30px;
     border: medium solid white;
     border-width: 10px 0 10px 10px;
-    border-color: transparent transparent transparent white;
+    border-color: transparent transparent transparent $accent-v2;
   }
   
   /* Add arrows to the right container (pointing left) */
@@ -91,9 +80,9 @@
     width: 0;
     z-index: 1;
     left: 30px;
-    border: medium solid white;
+    border: medium solid $accent-v2;
     border-width: 10px 10px 10px 0;
-    border-color: transparent white transparent transparent;
+    border-color: transparent $accent-v2 transparent transparent;
   }
   
   /* Fix the circle for containers on the right side */
@@ -104,7 +93,7 @@
   /* The actual content */
   .content {
     padding: 20px 30px;
-    background-color: white;
+    background-color: #202020;
     position: relative;
     border-radius: 6px;
   }
@@ -146,54 +135,3 @@
 
 
 
-
-
-
-
-
-/*
-.overall-div-process{
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    margin-top: 150px;
-}
-
-.div-1{
-    text-align: right;
-    padding-right: 10px;
-}
-
-.number-pro{
-    font-family: 'Inter', sans-serif;
-    color: $accent-v2;
-    -webkit-text-fill-color: transparent;
-    font-weight: 900;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: $accent-v2;
-    font-size: 6em;
-    margin: 0;
-}
-
-.title-pro{
-    font-family: 'Inter', sans-serif;
-    margin: 0;
-    color: $accent-v2;
-    font-weight: 200;
-}
-
-.div-1 p{
-    padding-left: 72%;
-    font-weight: 200;
-    font-size: 1em;
-    margin-top: 0.3em;
-    }
-
-    
-
-.img-p{
-    width: 300px;
-    padding-left: 10px;
-
-}
-*/
