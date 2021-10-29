@@ -1,8 +1,6 @@
 .sub-heading-abc{
     margin-top: 2rem;
-    text-align: right;
-float: left;
-padding-left: 20%;
+    text-align: center;
 font-size: 4.5em;
 padding-top: 1.2em;
 }
@@ -22,8 +20,10 @@ padding-top: 1.2em;
 }
 
 .flexing{
-    display: flex;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .flex-other{
@@ -32,22 +32,21 @@ padding-top: 1.2em;
 }
 
 .nam1{
-    padding-right: 30px;
-    padding-left: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
 }
 
 .nam2{
-    padding-right: 30px;
-    padding-left: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
 }
 
 .nam3{
-    padding-right: 30px;
-    padding-left: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
 }
 
 .centering{
     text-align: center;
     align-items: center;
-    padding-left: 27%;
 }
