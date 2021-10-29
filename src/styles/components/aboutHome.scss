@@ -26,7 +26,10 @@
         font-size: 2em;
     }
     @media (min-width: $layout-breakpoint-xmedium) {
-        font-size: 6em;
+        font-size: 3em;
+    }
+    @media (min-width: $layout-breakpoint-nmedium) {
+        font-size: 3.9em;
     }
     @media (min-width: $layout-breakpoint-medium) {
         font-size: 6em;
@@ -55,7 +58,7 @@
     color: $text;
     font-family: 'Inter', sans-serif;
     font-weight: 200;
-    font-size: 1.3em;
+    font-size: 1.2em;
     margin-top: 2em;
     text-align: left;
     margin-left: 10%;
@@ -64,7 +67,7 @@
         font-size: 1.3em;
 }
 @media (min-width: $layout-breakpoint-xmedium) {
-    font-size: 1.9em;
+    font-size: 1.4em;
     line-height: 1.2;
 }
 @media (min-width: $layout-breakpoint-medium) {
@@ -82,7 +85,10 @@
     width: 70%;
     margin-left: 10%;
     margin-right: 20%;
-    padding-bottom: 15em;
+    padding-bottom: 9em;
+    @media (min-width: $layout-breakpoint-xmedium) {
+        padding-bottom: 15em;
+    }
 }
 
 
