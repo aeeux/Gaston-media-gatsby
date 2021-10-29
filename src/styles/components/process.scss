@@ -155,6 +155,11 @@
   padding-right: 15px;
 }
 
-
+.xtra{
+    margin-top: -80px;
+    @media (min-width: $layout-breakpoint-xmedium) {
+        margin-top: 0;
+    }
+}
 
 
