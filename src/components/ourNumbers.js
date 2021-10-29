@@ -5,28 +5,10 @@ const ourNumbers = () => {
         <div className="font">
             <li className="heading-ab">Work Process </li>
 
-            <div class="timeline">
-  <div class="container1 left">
-    <div class="content">
-      <h2>Research</h2>
-      <p>We rebrand businesses through a well thoughout analysis on the market, the competitors and the customergroups.</p>
-    </div>
-  </div>
-  <div class="container1 right">
-    <div class="content">
-      <h2>Design</h2>
-      <p>We rebrand businesses through a well thoughout analysis on the market, the competitors and the customergroups.</p>
-    </div>
-  </div>
-  <div class="container1 left">
-    <div class="content">
-      <h2>Development</h2>
-      <p>We rebrand businesses through a well thoughout analysis on the market, the competitors and the customergroups.</p>
-    </div>
-  </div>
-</div>
-
-        </div>
+            <div>
+            <h2 className="sub-heading-ab sub-heading-abc">Numbers speak <span className="sub-h-span sub-h-span2">louder than words!</span></h2></div>
+            
+            </div>
     )
 }
 
