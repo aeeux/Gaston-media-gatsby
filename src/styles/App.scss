@@ -121,11 +121,7 @@ ul {
 }
 
 .container {
-  flex-grow: 1;
-  margin: 0 auto;
-  padding: 0 32px;
-  position: relative;
-  width: auto;
+
   @media (min-width: 1024px) {
     max-width: 960px;
   }
