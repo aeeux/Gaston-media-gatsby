@@ -20,13 +20,29 @@
     color:  $accent-v2;
     font-weight: 100;
     text-align: left;
-    margin-left: 5rem;
+    margin-left: 0rem;
     margin-top: 0.8em;
     @media (min-width: $layout-breakpoint-xsmall) {
-        font-size: 1em;
+        font-size: 2em;
     }
     @media (min-width: $layout-breakpoint-xmedium) {
         font-size: 6em;
+    }
+    @media (min-width: $layout-breakpoint-medium) {
+        font-size: 6em;
+    }
+}
+
+.sub-heading-abcde{
+    margin-left: 3rem;
+    padding-right: 2rem;
+    @media (min-width: $layout-breakpoint-xmedium) {
+        margin-left: 5rem;
+
+    padding-right: 0rem;
+    }
+    @media (min-width: $layout-breakpoint-medium) {
+        margin-left: 5rem;
     }
 }
 
@@ -39,12 +55,21 @@
     color: $text;
     font-family: 'Inter', sans-serif;
     font-weight: 200;
-    font-size: 1.9em;
+    font-size: 1.3em;
     margin-top: 2em;
     text-align: left;
     margin-left: 10%;
     margin-right: 20%;
-    line-height: 1.6;
+    @media (min-width: $layout-breakpoint-xsmall) {
+        font-size: 1.3em;
+}
+@media (min-width: $layout-breakpoint-xmedium) {
+    font-size: 1.9em;
+    line-height: 1.2;
+}
+@media (min-width: $layout-breakpoint-medium) {
+    font-size: 1.9em;
+}
 }
 
 .center{
