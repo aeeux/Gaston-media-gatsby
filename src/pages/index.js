@@ -17,9 +17,9 @@ const IndexPage = () => (
       </div>
       <div>
         <AboutHome/>
+        <OurNumbers/>
         <Process/>
         <ProjectsHome/>
-        <OurNumbers/>
       </div>
     </div>
   </div>
