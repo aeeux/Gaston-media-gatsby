@@ -9,26 +9,20 @@ const process = () => {
             <div class="timeline">
   <div class="container1 left">
     <div class="content">
-      <h2>2017</h2>
-      <p>Lorem ipsum..</p>
+      <h2>Research</h2>
+      <p>We rebrand businesses through a well thoughout analysis on the market, the competitors and the customergroups.</p>
     </div>
   </div>
   <div class="container1 right">
     <div class="content">
-      <h2>2016</h2>
-      <p>Lorem ipsum..</p>
+      <h2>Design</h2>
+      <p>We rebrand businesses through a well thoughout analysis on the market, the competitors and the customergroups.</p>
     </div>
   </div>
   <div class="container1 left">
     <div class="content">
-      <h2>2017</h2>
-      <p>Lorem ipsum..</p>
-    </div>
-  </div>
-  <div class="container1 right">
-    <div class="content">
-      <h2>2016</h2>
-      <p>Lorem ipsum..</p>
+      <h2>Development</h2>
+      <p>We rebrand businesses through a well thoughout analysis on the market, the competitors and the customergroups.</p>
     </div>
   </div>
 </div>
