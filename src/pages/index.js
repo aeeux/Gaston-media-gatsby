@@ -5,6 +5,7 @@ import SEO from "../components/seo"
 import Index from "../components/index/index"
 import Process from "../components/process"
 import AboutHome from "../components/aboutHome"
+import ProjectsHome from "../components/projectsHome"
 
 const IndexPage = () => (
   <div id="app">
@@ -16,6 +17,7 @@ const IndexPage = () => (
       <div>
         <AboutHome/>
         <Process/>
+        <ProjectsHome/>
       </div>
     </div>
   </div>
