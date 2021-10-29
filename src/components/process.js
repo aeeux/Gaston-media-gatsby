@@ -3,7 +3,7 @@ import processimg from '../images/research.png';
 
 const process = () => {
   return (
-    <div className="font">
+    <div className="font xtra">
       <li className="heading-ab">Work Process </li>
 
       <div class="timeline">
