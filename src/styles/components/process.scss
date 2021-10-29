@@ -131,6 +131,29 @@
     }
   }
 
+  .number-pro{
+    font-family: 'Inter', sans-serif;
+    color: $accent-v2;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: $accent-v2;
+    font-size: 5em;
+    margin: 0;
+}
+
+.content h3{
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  color: $accent-v2;
+  font-weight: 400;
+  margin-top: 0.5em;
+}
+
+.content p{
+  padding-left: 15px;
+  padding-right: 15px;
+}
 
 
 
