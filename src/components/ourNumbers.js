@@ -10,15 +10,15 @@ const ourNumbers = () => {
             <div className="centering">
 <div className="flexing">
             <div className="nam nam1">
-                <br/><h2 className="ninenine">99%</h2> <p>client satisfaction</p>
+                <br/><h2 className="ninenine">99%</h2> <p className="pp">client satisfaction</p>
             </div>
 
             <div className="nam nam2">
-                <br/><h2 className="ninenine">>2years</h2> <p>over 2 years of expertise</p>
+                <br/><h2 className="ninenine">>2years</h2> <p className="pp">over 2 years of expertise</p>
             </div>
 
             <div className="nam nam3">
-                <br/><h2 className="ninenine">24/7</h2> <p>daily support</p>
+                <br/><h2 className="ninenine">24/7</h2> <p className="pp">daily support</p>
             </div>
             </div>
 </div>
