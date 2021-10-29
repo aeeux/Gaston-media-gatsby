@@ -1,9 +1,21 @@
 .sub-heading-abc{
     margin-top: 2rem;
     text-align: center;
-font-size: 4.5em;
-padding-top: 1.2em;
+    padding-top: 1.2em;
+    font-size: 2em;
+               
+    @media (min-width: $layout-breakpoint-xsmall) {
+        
+    }
+    @media (min-width: $layout-breakpoint-medium) {
+        font-size: 4.5em;
+        
+    }
+    @media (min-width: $layout-breakpoint-large) {
+        font-size: 4.5em;
+    }
 }
+
 
 .sub-h-span2{
     text-decoration: underline $accent;
@@ -24,6 +36,17 @@ padding-top: 1.2em;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+        
+    @media (min-width: $layout-breakpoint-xsmall) {
+        flex-direction: column;
+    }
+    @media (min-width: $layout-breakpoint-xmedium) {
+        flex-direction: row;
+    }
+    @media (min-width: $layout-breakpoint-large) {
+        flex-direction: row;
+    }
 }
 
 .flex-other{
