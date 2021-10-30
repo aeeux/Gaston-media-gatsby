@@ -11,7 +11,7 @@ const peopleLove = () => {
         <div>
         <div>
             <h2 className="sub-heading-ab sub-heading-abcde">Why people <span className="sub-h-span"> love us</span></h2></div>
-            <div className="center">
+            <div className="">
             <p className="love-p">We are a creative design and develop agency created to revolutionize the way you look a digital solutions. we’re a team of passioante and hard wokring people here to push your business to the next level. What’s not to like?</p></div>
         
             </div>
