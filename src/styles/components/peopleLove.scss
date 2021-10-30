@@ -1,0 +1,52 @@
+.margin-love{
+    margin-bottom: 15em;
+}
+
+.loveit{
+    display: flex;
+}
+
+.message{
+    background-color: $accent;
+    border-radius: 11px;
+    font-size: 1.3rem;
+    padding: 20px 35px 20px 35px
+}
+
+.message1{
+margin-right: 5em;
+}
+
+.message2{
+    margin-right: 10em;
+    }
+
+.message3{
+margin-right: 15em;
+}
+
+
+.love-p{
+    color: $text;
+    font-family: 'Inter', sans-serif;
+    font-weight: 200;
+    font-size: 1.2em;
+    margin-top: 2em;
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 20%;
+    @media (min-width: $layout-breakpoint-xsmall) {
+        font-size: 1.3em;
+}
+@media (min-width: $layout-breakpoint-xmedium) {
+    font-size: 1.4em;
+    line-height: 1.4;
+}
+@media (min-width: $layout-breakpoint-medium) {
+    font-size: 1.7em;
+}
+}
+
+.margin-love{
+    margin-bottom: 15em;
+}
