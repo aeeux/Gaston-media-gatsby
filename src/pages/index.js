@@ -7,6 +7,7 @@ import Process from "../components/process"
 import AboutHome from "../components/aboutHome"
 import ProjectsHome from "../components/projectsHome"
 import OurNumbers from "../components/ourNumbers"
+import PeopleLove from "../components/peopleLove"
 
 const IndexPage = () => (
   <div id="app">
@@ -18,6 +19,7 @@ const IndexPage = () => (
       <div>
         <AboutHome/>
         <OurNumbers/>
+        <PeopleLove/>
         <Process/>
         <ProjectsHome/>
       </div>
