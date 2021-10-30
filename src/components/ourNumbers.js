@@ -15,7 +15,7 @@ const ourNumbers = () => {
                     </div>
 
                     <div className="nam nam2">
-                        <br /><h2 className="ninenine">7 years</h2> <p className="pp">over 2 years of expertise</p>
+                        <br /><h2 className="ninenine">>7 years</h2> <p className="pp">over 7 years of expertise</p>
                     </div>
 
                     <div className="nam nam3">
