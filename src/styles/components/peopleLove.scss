@@ -15,7 +15,7 @@
 
 
 .message{
-    background: linear-gradient(0.20turn,#5641f8ab, $accent);
+    background: linear-gradient(0.20turn,#284199, $accent);
     width: 16rem;
     border-radius: 11px;
     font-size: 1.3rem;
@@ -32,7 +32,6 @@
 .message1{
     margin-right: 50px;
 }
-
 
 .love-p{
     color: $text;
@@ -54,6 +53,24 @@
     font-size: 1.7em;
 }
 }
+
+
+
+.bold{
+    font-weight: 900;
+
+  background-color: $accent-v2;
+  background-image: linear-gradient(40deg, $accent-v2, #284199);
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+
+
 
 .margin-love{
     margin-bottom: 15em;
