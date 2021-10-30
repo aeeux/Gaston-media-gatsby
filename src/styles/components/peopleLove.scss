@@ -15,19 +15,17 @@
 
 
 .message{
-    background-color: $accent;
+    background: linear-gradient(0.20turn,#5641f8ab, $accent);
     width: 16rem;
     border-radius: 11px;
     font-size: 1.3rem;
-    padding: 20px 35px 20px 35px;
+    padding: 15px 30px 15px 30px;
     margin-right: 20px;
-    @media (max-width: $layout-breakpoint-xmedium){
-        text-align: center;
-        align-items: center;
-        align-self: center;
-    }
+    font-size: medium;
     @media (min-width: $layout-breakpoint-xmedium) {
         width: 20rem;
+        padding: 20px 35px 20px 35px;
+        font-size: large;
     }
 }
 
