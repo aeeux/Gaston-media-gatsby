@@ -3,14 +3,45 @@
 }
 
 .rec-pagination {
-    background-color: aqua;
-    width: 80%;
+    background-color: $accent-v2;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 15px;
+    margin-left: 2.9rem;
 }
 
 .rec-dot {
     display: flex;
     margin: 0;
-    width: 16.666666667%;
-    max-width: 100%;
-    border-radius: 0;
+    width: 40%;
+    max-width: 40%;
+    border-radius: 15px;
+    box-shadow: none;
+}
+
+.rec-dot:focus {
+    box-shadow: none;
+    background-color: $accent;
+}
+
+.rec-dot:hover {
+    box-shadow: none;
+    background-color: $accent;
+}
+
+
+.lcUbOd {
+    box-shadow: none;
+    background-color: $accent;
+}
+
+.itemImage {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.rec-carousel-wrapper {
+    align-items: flex-start;
+    margin-top: 4rem;
 }
