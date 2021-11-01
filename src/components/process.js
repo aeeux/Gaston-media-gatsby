@@ -14,14 +14,14 @@ const process = () => {
             <p>We rebrand businesses through a well thoughout analysis on the market, the competitors and the customergroups.</p>
           </div>
         </div>
-        <div class="container1 right">
+        <div class="container1 process-right">
           <div class="content">
             <h2 className="number-pro">02</h2>
             <h3 className="tittle-pro">Design</h3>
             <p> When we design, it's a creative process in which we use our intuition and analytical ability to understand the opportunities and constraints business goals, competitive markets, customer needs, and technologies present, that envision, communicate, and realize practical solutions that meet customer needs and create business value</p>
           </div>
         </div>
-        <div class="container1 left">
+        <div class="container1 prcoess-left">
           <div class="content">
             <h2 className="number-pro">03</h2>
             <h3 className="tittle-pro">Development</h3>
