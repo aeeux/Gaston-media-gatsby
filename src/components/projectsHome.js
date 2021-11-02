@@ -8,7 +8,7 @@ import rectangle from '../images/Rectangle.png';
 const changeFromBreakpoints = [
   { width: 1, itemsToShow: 1 },
   { width: 700, itemsToShow: 1.5 },
-  { width: 958, itemsToShow: 2 },
+  { width: 960, itemsToShow: 2 },
   { width: 1279, itemsToShow: 2.5 },
 ]
 
