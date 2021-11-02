@@ -7,7 +7,7 @@ import rectangle from '../images/Rectangle.png';
 
 const changeFromBreakpoints = [
   { width: 1, itemsToShow: 1 },
-  { width: 500, itemsToShow: 2.5 }
+  { width: 700, itemsToShow: 2.5 }
 ]
 
 
@@ -17,11 +17,12 @@ const projectsHome = () => {
     <div className="font">
       <li className="heading-ab">Featured Projects </li>
       <Carousel breakPoints={changeFromBreakpoints}>
+
         
-          <Item><Link draggable="false" to='/item1'><img draggable="false" className="itemImage" src={rectangle}></img></Link></Item>
-          <Item><Link draggable="false" to='/item2'><img draggable="false" className="itemImage" src={rectangle}></img></Link></Item>
-          <Item><Link draggable="false" to='/item3'><img draggable="false" className="itemImage" src={rectangle}></img></Link></Item>
-          <Item><Link draggable="false" to='/item4'><img draggable="false" className="itemImage" src={rectangle}></img></Link></Item>
+        <Item> <div className='carouselCards'> <Link className='linkButtonCards' draggable="false" to='/item1'>Check Out</Link> </div></Item>
+        <Item> <div className='carouselCards'> <Link className='linkButtonCards' draggable="false" to='/item2'>Check Out</Link> </div></Item>
+        <Item> <div className='carouselCards'> <Link className='linkButtonCards' draggable="false" to='/item3'>Check Out</Link> </div></Item>
+        <Item> <div className='carouselCards'> <Link className='linkButtonCards' draggable="false" to='/item4'>Check Out</Link> </div></Item>
 
       </Carousel>
     </div>

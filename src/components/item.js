@@ -6,7 +6,7 @@ export default styled.div`
     align-items: center;
     width: 85%;
     min-height: 85%;
-    height: 85%;
+    height: 32.5vh;
     background-color: none;
-    border-radius: 15px;
+    border-radius: 25rem;
 `;
