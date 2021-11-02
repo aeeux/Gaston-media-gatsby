@@ -66,18 +66,28 @@
     align-self: center;
     margin-top: 35%;
     margin-right: 70%;
+    min-width: 50px;
     width: 22.5%;
     padding: 2.5% 0;
     border-radius: 0.5rem;
 }
-@media (max-width: $layout-breakpoint-xmedium) {
-    .carouselCards {
-        background-color: hotpink;
-    }
+
+
+@media screen and (min-width: 1px) and (max-width: $layout-breakpoint-xmedium) {
     .rec-pagination {
-        width: 70%;
+        width: 72.5%;
     }
     .rec-dot {
         width: 20%;
+    }
+}
+
+
+@media (min-width: $layout-breakpoint-xmedium) and (max-width: $layout-breakpoint-small) {
+    .rec-pagination {
+        width: 50%;
+    }
+    .rec-dot {
+        width: 30%;
     }
 }

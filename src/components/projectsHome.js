@@ -7,7 +7,9 @@ import rectangle from '../images/Rectangle.png';
 
 const changeFromBreakpoints = [
   { width: 1, itemsToShow: 1 },
-  { width: 700, itemsToShow: 2.5 }
+  { width: 700, itemsToShow: 1.5 },
+  { width: 958, itemsToShow: 2 },
+  { width: 1279, itemsToShow: 2.5 },
 ]
 
 
@@ -18,7 +20,6 @@ const projectsHome = () => {
       <li className="heading-ab">Featured Projects </li>
       <Carousel breakPoints={changeFromBreakpoints}>
 
-        
         <Item> <div className='carouselCards'> <Link className='linkButtonCards' draggable="false" to='/item1'>Check Out</Link> </div></Item>
         <Item> <div className='carouselCards'> <Link className='linkButtonCards' draggable="false" to='/item2'>Check Out</Link> </div></Item>
         <Item> <div className='carouselCards'> <Link className='linkButtonCards' draggable="false" to='/item3'>Check Out</Link> </div></Item>
