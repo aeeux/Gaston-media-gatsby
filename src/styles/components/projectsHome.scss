@@ -46,6 +46,7 @@
     margin-top: 4rem;
 }
 
+
 .carouselCards {
     background-color: grey;
     width: 100%;
@@ -80,30 +81,30 @@
     background-color: $accent;
 }
 
-#carousel {
+.carousel {
     height: 24rem;
-    max-width: 100%;
+    width: 100%;
     display: flex;
     flex: 1;
     overflow-x: scroll;
     align-items: center;
-    border: none;
     flex-wrap: none;
     scrollbar-width: 50px;
+    flex-direction: row;
 }
 
-#carousel::-webkit-scrollbar{
+.carousel::-webkit-scrollbar{
     border-radius: 5rem;
     background-color: $accent-v2;
     margin-right: 10rem;
     height: 12px;
 }
-#carousel::-webkit-scrollbar-thumb{
+.carousel::-webkit-scrollbar-thumb{
     background-color: $accent;
     border-radius: 5rem;
 }
 
-#carousel::-webkit-scrollbar-track{
+.carousel::-webkit-scrollbar-track{
    width: 50%;
 }
 

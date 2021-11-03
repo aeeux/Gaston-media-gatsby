@@ -4,6 +4,7 @@ import Carousel from "react-elastic-carousel"
 import Item from "./item"
 import { Link } from "gatsby"
 import rectangle from '../images/Rectangle.png';
+import ScrollContainer from 'react-indiana-drag-scroll'
 
 const changeFromBreakpoints = [
   { width: 1, itemsToShow: 1 },
@@ -26,7 +27,7 @@ const projectsHome = () => {
 
       </Carousel>
 
-      <div id='carousel'>
+      <ScrollContainer className='carousel'>
         <div className='carouselItem'>
           <Link className='linkButtonCards' draggable="false" to='/item1'>Check Out</Link>
         </div>
@@ -43,7 +44,7 @@ const projectsHome = () => {
           <Link className='linkButtonCards' draggable="false" to='/item1'>Check Out</Link>
         </div>
 
-      </div>
+      </ScrollContainer>
     </div>
 
 
