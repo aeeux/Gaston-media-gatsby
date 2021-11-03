@@ -80,6 +80,46 @@
     background-color: $accent;
 }
 
+#carousel {
+    height: 24rem;
+    max-width: 100%;
+    display: flex;
+    flex: 1;
+    overflow-x: scroll;
+    align-items: center;
+    border: none;
+    flex-wrap: none;
+    scrollbar-width: 50px;
+}
+
+#carousel::-webkit-scrollbar{
+    border-radius: 5rem;
+    background-color: $accent-v2;
+    margin-right: 10rem;
+    height: 12px;
+}
+#carousel::-webkit-scrollbar-thumb{
+    background-color: $accent;
+    border-radius: 5rem;
+}
+
+#carousel::-webkit-scrollbar-track{
+   width: 50%;
+}
+
+.carouselItem {
+    flex-shrink: 0;
+    flex-grow: 1;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 37.5rem;
+    height: 20rem;
+    border-radius: 1rem;
+    background-color: #c1c1c1;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+}
 
 @media screen and (min-width: 1px) and (max-width: $layout-breakpoint-xmedium) {
     .rec-pagination {
