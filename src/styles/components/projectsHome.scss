@@ -70,6 +70,14 @@
     width: 22.5%;
     padding: 2.5% 0;
     border-radius: 0.5rem;
+    border: 4px solid $accent;
+}
+
+.linkButtonCards:hover {
+    animation-duration: 0.2s;
+    transition-timing-function: ease-out;
+    transform: scale(1.1, 1.1);
+    background-color: $accent;
 }
 
 

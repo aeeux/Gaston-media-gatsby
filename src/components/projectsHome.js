@@ -18,7 +18,7 @@ const projectsHome = () => {
   return (
     <div className="font">
       <li className="heading-ab">Featured Projects </li>
-      <Carousel breakPoints={changeFromBreakpoints}>
+      <Carousel className='carousel' breakPoints={changeFromBreakpoints}>
 
         <Item> <div className='carouselCards'> <Link className='linkButtonCards' draggable="false" to='/item1'>Check Out</Link> </div></Item>
         <Item> <div className='carouselCards'> <Link className='linkButtonCards' draggable="false" to='/item2'>Check Out</Link> </div></Item>
