@@ -3,7 +3,7 @@ import processimg from "../images/research.png"
 import Carousel from "react-elastic-carousel"
 import Item from "./item"
 import { Link } from "gatsby"
-import rectangle from '../images/Rectangle.png';
+import Rectangle from '../images/Rectangle.png';
 import ScrollContainer from 'react-indiana-drag-scroll'
 
 const changeFromBreakpoints = [
@@ -13,36 +13,39 @@ const changeFromBreakpoints = [
   { width: 1279, itemsToShow: 2.5 },
 ]
 
+console.log(Rectangle);
 
 const projectsHome = () => {
   return (
     <div className="font">
       <li className="heading-ab">Featured Projects </li>
-      <Carousel breakPoints={changeFromBreakpoints}>
 
-        <Item> <div className='carouselCards'> <Link className='linkButtonCards' draggable="false" to='/item1'>Check Out</Link> </div></Item>
-        <Item> <div className='carouselCards'> <Link className='linkButtonCards' draggable="false" to='/item2'>Check Out</Link> </div></Item>
-        <Item> <div className='carouselCards'> <Link className='linkButtonCards' draggable="false" to='/item3'>Check Out</Link> </div></Item>
-        <Item> <div className='carouselCards'> <Link className='linkButtonCards' draggable="false" to='/item4'>Check Out</Link> </div></Item>
-
-      </Carousel>
-
-      <ScrollContainer className='carousel'>
-        <div className='carouselItem'>
-          <Link className='linkButtonCards' draggable="false" to='/item1'>Check Out</Link>
+      <ScrollContainer className='carousel' >
+       <Link draggable="false" to='/NaestvedProvsti'>
+        <div className='carouselItem case1'>
+          
         </div>
-        <div className='carouselItem'>
-          <Link className='linkButtonCards' draggable="false" to='/item1'>Check Out</Link>
+        </Link>
+        <Link draggable="false" to='/item2'>
+        <div className='carouselItem case2'>
+          
         </div>
-        <div className='carouselItem'>
-          <Link className='linkButtonCards' draggable="false" to='/item1'>Check Out</Link>
+        </Link>
+        <Link draggable="false" to='/item3'>
+        <div className='carouselItem case3'>
+          
         </div>
-        <div className='carouselItem'>
-          <Link className='linkButtonCards' draggable="false" to='/item1'>Check Out</Link>
+        </Link>
+        <Link draggable="false" to='/item4'>
+        <div className='carouselItem case4'>
+          
         </div>
-        <div className='carouselItem'>
-          <Link className='linkButtonCards' draggable="false" to='/item1'>Check Out</Link>
+        </Link>
+        <Link draggable="false" to='/item5'>
+        <div className='carouselItem case5'>
+          
         </div>
+        </Link>
 
       </ScrollContainer>
     </div>

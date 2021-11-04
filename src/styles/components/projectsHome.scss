@@ -1,142 +1,61 @@
-.rec-arrow {
-    display: none;
-}
-
-.rec-pagination {
-    background-color: $accent-v2;
-    width: 30%;
-    display: flex;
-    justify-content: space-between;
-    border-radius: 15px;
-    margin-left: 2.9rem;
-}
-
-.rec-dot {
-    display: flex;
-    margin: 0;
-    width: 40%;
-    max-width: 40%;
-    border-radius: 15px;
-    box-shadow: none;
-}
-
-.rec-dot:focus {
-    box-shadow: none;
-    background-color: $accent;
-}
-
-.rec-dot:hover {
-    box-shadow: none;
-    background-color: $accent;
-}
-
-
-.lcUbOd {
-    box-shadow: none;
-    background-color: $accent;
-}
-
-.itemImage {
-    width: 100%;
-    border-radius: 15px;
-}
-
-.rec-carousel-wrapper {
-    align-items: flex-start;
-    margin-top: 4rem;
-}
-
-
 .carouselCards {
-    background-color: grey;
-    width: 100%;
-    height: 100%;
-    border-radius: 12px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  background-color: grey;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .linkButtonCards {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    background-color: black;
-    color: $text;
-    align-content: center;
-    align-self: center;
-    margin-top: 35%;
-    margin-right: 70%;
-    min-width: 50px;
-    width: 22.5%;
-    padding: 2.5% 0;
-    border-radius: 0.5rem;
-    border: 4px solid $accent;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: black;
+  color: $text;
+  align-content: center;
+  align-self: center;
+  margin-top: 35%;
+  margin-right: 70%;
+  min-width: 50px;
+  width: 22.5%;
+  padding: 2.5% 0;
+  border-radius: 0.5rem;
+  border: 4px solid $accent;
 }
 
 .linkButtonCards:hover {
-    animation-duration: 0.2s;
-    transition-timing-function: ease-out;
-    transform: scale(1.1, 1.1);
-    background-color: $accent;
+  animation-duration: 0.2s;
+  transition-timing-function: ease-out;
+  transform: scale(1.1, 1.1);
+  background-color: $accent;
 }
 
 .carousel {
-    height: 24rem;
-    width: 100%;
-    display: flex;
-    flex: 1;
-    overflow-x: scroll;
-    align-items: center;
-    flex-wrap: none;
-    scrollbar-width: 50px;
-    flex-direction: row;
-}
-
-.carousel::-webkit-scrollbar{
-    border-radius: 5rem;
-    background-color: $accent-v2;
-    margin-right: 10rem;
-    height: 12px;
-}
-.carousel::-webkit-scrollbar-thumb{
-    background-color: $accent;
-    border-radius: 5rem;
-}
-
-.carousel::-webkit-scrollbar-track{
-   width: 50%;
+  margin-top: 1rem;
+  height: 24rem;
+  width: 100%;
+  display: flex;
+  flex: 1;
+  overflow-x: scroll;
+  align-items: center;
+  flex-wrap: none;
+  scrollbar-width: 50px;
+  flex-direction: row;
 }
 
 .carouselItem {
-    flex-shrink: 0;
-    flex-grow: 1;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    width: 37.5rem;
-    height: 20rem;
-    border-radius: 1rem;
-    background-color: #c1c1c1;
-    margin-left: 2.5rem;
-    margin-right: 2.5rem;
-}
-
-@media screen and (min-width: 1px) and (max-width: $layout-breakpoint-xmedium) {
-    .rec-pagination {
-        width: 72.5%;
-    }
-    .rec-dot {
-        width: 20%;
-    }
-}
-
-
-@media (min-width: $layout-breakpoint-xmedium) and (max-width: $layout-breakpoint-small) {
-    .rec-pagination {
-        width: 50%;
-    }
-    .rec-dot {
-        width: 30%;
-    }
+  flex-shrink: 0;
+  flex-grow: 1;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 37.5rem;
+  height: 20rem;
+  border-radius: 1rem;
+  background-color: blue;
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+  background-image: url("../images/Rectangle.png");
 }
