@@ -16,12 +16,9 @@ const peopleLove = () => {
         
             </div>
             <div>
-        <p className="message message1">nanm ns c cdsv vdd cv
-weawc sfa ssa cs e rrt sc s esa f rs rfsa fras f</p>
-<p className="message message2">nanm ns c cdsv vdd cv
-weawc sfa ssa cs e rrt sc s esa f rs rfsa fras f</p>
-<p className="message message3">nanm ns c cdsv vdd cv
-weawc sfa ssa cs e rrt sc s esa f rs rfsa fras f</p>
+        <p className="message message1">Nice people, good communication and an even better digital solution. Thank you for your work!</p>
+<p className="message message2">First time working with these guys, and definetly not last time.</p>
+<p className="message message3">Amazing results, simply amazing. I'm speechless. I'll be back for sure!</p>
 </div>
         </div>
         </div>
