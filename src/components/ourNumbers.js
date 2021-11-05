@@ -11,8 +11,8 @@ const OurNumbers = () => {
         <div className="font flex-other">
             <li data-aos="zoom-in"  className="heading-ab">Our numbers </li>
 
-            <div data-aos="zoom-in" >
-                <h2 className="sub-heading-ab sub-heading-abc">Numbers speak <span className="sub-h-span sub-h-span2">louder than words!</span></h2>
+            <div  >
+                <h2 data-aos="zoom-in" className="sub-heading-ab sub-heading-abc">Numbers speak <span className="sub-h-span sub-h-span2">louder than words!</span></h2>
             </div>
             <div data-aos="zoom-in"  className="centering">
                 <div className="flexing">
