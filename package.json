@@ -6,7 +6,7 @@
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
     "@fontsource/poppins": "^4.5.0",
-    "framer-motion": "^5.0.0",
+    "framer-motion": "^5.2.1",
     "gatsby": "^4.0.1",
     "gatsby-image": "^3.11.0",
     "gatsby-plugin-gatsby-cloud": "^4.0.0",
@@ -25,6 +25,7 @@
     "react-elastic-carousel": "^0.11.5",
     "react-helmet": "^6.1.0",
     "react-indiana-drag-scroll": "^2.1.0",
+    "react-intersection-observer": "^8.32.2",
     "styled-components": "^5.3.3"
   },
   "devDependencies": {
