@@ -8,6 +8,7 @@ import AboutHome from "../components/aboutHome"
 import ProjectsHome from "../components/projectsHome"
 import OurNumbers from "../components/ourNumbers"
 import PeopleLove from "../components/peopleLove"
+import Kontakt from "../components/kontakt"
 
 const IndexPage = () => (
   <div id="app">
@@ -22,6 +23,7 @@ const IndexPage = () => (
         <PeopleLove/>
         <Process/>
         <ProjectsHome/>
+        <Kontakt/>
       </div>
     </div>
   </div>
