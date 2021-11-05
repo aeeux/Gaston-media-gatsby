@@ -9,7 +9,7 @@ const Kontakt = () => {
     }, []);
     return (
         <div className="abcdefgh">
-            <li className="heading-ab">Contact us </li>
+            <li data-aos="fade-right" className="heading-ab">Contact us </li>
             <div className="grid1">
                 <div className="main1">
                     <div  data-aos="fade-right" className="container4">
