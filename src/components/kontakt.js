@@ -2,7 +2,8 @@ import React from 'react';
 
 const kontakt = () => {
     return (
-        <div>
+        <div className="abcdefgh">
+                     <li className="heading-ab">Contact us </li>
 <div className="grid1">
   <div className="main1">
   <div className="container4">
