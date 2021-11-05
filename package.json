@@ -6,6 +6,7 @@
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
     "@fontsource/poppins": "^4.5.0",
+    "aos": "^2.3.4",
     "framer-motion": "^5.2.1",
     "gatsby": "^4.0.1",
     "gatsby-image": "^3.11.0",
