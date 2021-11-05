@@ -5,6 +5,9 @@ import Item from "./item"
 import { Link } from "gatsby"
 import Rectangle from '../images/Rectangle.png';
 import ScrollContainer from 'react-indiana-drag-scroll'
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from 'react';
 
 const changeFromBreakpoints = [
   { width: 1, itemsToShow: 1 },
@@ -15,11 +18,15 @@ const changeFromBreakpoints = [
 
 console.log(Rectangle);
 
-const projectsHome = () => {
+const ProjectsHome = () => {
+    useEffect(() => {
+        Aos.init({ duration: 2000 });
+    }, []);
   return (
     <div className="font">
-      <li className="heading-ab">Featured Projects </li>
+      <li data-aos="fade-right" className="heading-ab">Featured Projects </li>
 
+      <div data-aos="fade-left">
       <ScrollContainer className='carousel' >
        <Link draggable="false" to='/NaestvedProvsti'>
         <div className='carouselItem case1'>
@@ -48,6 +55,7 @@ const projectsHome = () => {
         </Link>
 
       </ScrollContainer>
+      </div>
     </div>
 
 
@@ -55,4 +63,4 @@ const projectsHome = () => {
 }
 
 
-export default projectsHome
+export default ProjectsHome
