@@ -27,7 +27,7 @@ const footer = () => {
     <ul class="menu">
       <li class="menu__item"><a class="menu__link" href="#">Home</a></li>
       <li class="menu__item"><a class="menu__link" href="#">About</a></li>
-      <li class="menu__item"><a class="menu__link" href="#">Projecrs</a></li>
+      <li class="menu__item"><a class="menu__link" href="#">Projects</a></li>
       <li class="menu__item"><a class="menu__link" href="#">Contact</a></li>
 
     </ul>
