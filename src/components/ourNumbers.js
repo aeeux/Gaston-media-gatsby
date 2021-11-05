@@ -1,14 +1,20 @@
 import React from 'react';
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from 'react';
 
-const ourNumbers = () => {
+const OurNumbers = () => {
+    useEffect(()=>{
+        Aos.init({duration:1500});
+    }, []);
     return (
         <div className="font flex-other">
-            <li className="heading-ab">Our numbers </li>
+            <li data-aos="zoom-in"  className="heading-ab">Our numbers </li>
 
-            <div>
+            <div data-aos="zoom-in" >
                 <h2 className="sub-heading-ab sub-heading-abc">Numbers speak <span className="sub-h-span sub-h-span2">louder than words!</span></h2>
             </div>
-            <div className="centering">
+            <div data-aos="zoom-in"  className="centering">
                 <div className="flexing">
                     <div className="nam nam1">
                         <br /><h2 className="ninenine">99%</h2> <p className="pp">client satisfaction</p>
@@ -27,4 +33,4 @@ const ourNumbers = () => {
     )
 }
 
-export default ourNumbers
+export default OurNumbers
