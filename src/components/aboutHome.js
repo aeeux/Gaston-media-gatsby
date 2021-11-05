@@ -1,10 +1,15 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import box from '../images/Rectangle.png';
 import box2 from '../images/creativity.jpeg';
+import Aos from "aos";
+import "aos/dist/aos.css";
 
-const aboutHome = () => {
+const AboutHome = () => {
+    useEffect(()=>{
+        Aos.init({duration:2000});
+    }, []);
     return (
-        <div>
+        <div data-aos="zoom-in">
             <li className="heading-ab">What we do </li>
 
            <div>
@@ -19,4 +24,4 @@ const aboutHome = () => {
     )
 }
 
-export default aboutHome
+export default AboutHome
