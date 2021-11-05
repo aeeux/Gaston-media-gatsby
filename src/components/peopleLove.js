@@ -18,7 +18,7 @@ const PeopleLove = () => {
                     <div>
                         <h2 data-aos="fade-right" className="sub-heading-ab sub-heading-abcde">Why people <span className="sub-h-span bold"> love us</span></h2></div>
                     <div className="">
-                        <p data-aos="fade-right" className="love-p">We are a creative design and develop agency created to revolutionize the way you look a digital solutions. we’re a team of passioante and hard wokring people here to push your business to the next level. What’s not to like?</p></div>
+                        <p data-aos="fade-right" className="love-p">We are a creative agency that helps people and brands strengthen their bonds with their consumers. Our agency is based on 4 core values; being inspiring, hard-working, helpful, and relying. We think up concepts, brand identity, come up with web designs that we develop as well,  and develop campaigns. This is why our customers love us!</p></div>
 
                 </div>
                 <div data-aos="fade-left" >
