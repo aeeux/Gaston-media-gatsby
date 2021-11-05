@@ -9,6 +9,7 @@ import ProjectsHome from "../components/projectsHome"
 import OurNumbers from "../components/ourNumbers"
 import PeopleLove from "../components/peopleLove"
 import Kontakt from "../components/kontakt"
+import Footer from "../components/footer"
 
 const IndexPage = () => (
   <div id="app">
@@ -24,6 +25,7 @@ const IndexPage = () => (
         <Process/>
         <ProjectsHome/>
         <Kontakt/>
+        <Footer/>
       </div>
     </div>
   </div>
