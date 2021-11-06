@@ -1,6 +1,7 @@
 import { Link } from "gatsby"
 import React, { useEffect } from "react"
 import { useLocation } from "@reach/router"
+import { motion } from "framer-motion"
 
 const Header = ({ menuState, setMenuState, setCursorHovered }) => {
   const location = useLocation()
@@ -9,6 +10,11 @@ const Header = ({ menuState, setMenuState, setCursorHovered }) => {
   }, [location])
   return (
     <header>
+                      <motion.div
+  initial={{ x: "-600px", opacity: 0 }}
+  animate={{ x: 0, opacity: 1 }}
+  exit={{ y: '-300px', opacity: 0 }}
+>
       <div className="container fluid">
         <div className="header-inner">
           <Link className="logo" activeClassName="active" to="/">
@@ -24,6 +30,7 @@ const Header = ({ menuState, setMenuState, setCursorHovered }) => {
           </div>
         </div>
       </div>
+      </motion.div>
     </header>
   )
 }
