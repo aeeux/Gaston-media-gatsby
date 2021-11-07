@@ -54,8 +54,32 @@
   width: 37.5rem;
   height: 20rem;
   border-radius: 1rem;
-  background-color: blue;
+  background-color: $background;
   margin-left: 2.5rem;
   margin-right: 2.5rem;
-  background-image: url("../images/Rectangle.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: $text;
+  text-shadow: black 3px 3px;
+}
+
+.case1 {
+  background-image: url("../images/project-1.jpeg");
+}
+
+.case2 {
+  background-image: url("../images/project-2.jpeg");
+}
+
+.case3 {
+  background-image: url("../images/project-3.jpeg");
+}
+
+.case4 {
+  background-image: url("../images/project-4.jpeg");
+}
+
+.case5 {
+  background-image: url("../images/project-5.jpeg");
 }
