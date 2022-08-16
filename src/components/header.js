@@ -15,7 +15,7 @@ const Header = ({ menuState, setMenuState, setCursorHovered }) => {
   animate={{ x: 0, opacity: 1 }}
   exit={{ y: '-300px', opacity: 0 }}
 >
-      <div className="container fluid">
+      <div className="container fluid" id="home">
         <div className="header-inner">
           <Link className="logo" activeClassName="active" to="/">
             Gaston Media

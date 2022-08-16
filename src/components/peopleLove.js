@@ -9,7 +9,7 @@ const PeopleLove = () => {
         Aos.init({ duration: 2000 });
     }, []);
     return (
-        <div className="margin-love">
+        <div className="margin-love" id='about-us'>
             <li   data-aos="fade-right" className="heading-ab">The people love us </li>
 
             <div className="loveit">
