@@ -18,6 +18,12 @@
 
 * {
   box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.max-width{
+  max-width: 1700px;
+  margin: auto;
 }
 
 #app {
@@ -25,7 +31,6 @@
   text-align: center;
   align-items: center;
   justify-content: center;
-  max-width: 1700px;
   @media (min-width: $layout-breakpoint-large) {}
 }
 
