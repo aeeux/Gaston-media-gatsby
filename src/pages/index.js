@@ -19,12 +19,14 @@ const IndexPage = () => (
         <Index />
       </div>
       <div>
+        <div className="max-width">
         <AboutHome/>
         <OurNumbers/>
         <PeopleLove/>
         <Process/>
         <ProjectsHome/>
         <Kontakt/>
+        </div>
         <Footer/>
       </div>
     </div>
