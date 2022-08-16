@@ -1,5 +1,4 @@
 import React from 'react'
-import processimg from '../images/research.png';
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from 'react';
