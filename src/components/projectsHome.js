@@ -6,13 +6,6 @@ import Aos from "aos"
 import "aos/dist/aos.css"
 import { useEffect } from "react"
 
-const changeFromBreakpoints = [
-  { width: 1, itemsToShow: 1 },
-  { width: 700, itemsToShow: 1.5 },
-  { width: 960, itemsToShow: 2 },
-  { width: 1279, itemsToShow: 2.5 },
-]
-
 console.log(Rectangle)
 
 const ProjectsHome = () => {
