@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react'
-import box from '../images/Rectangle.png';
 import box2 from '../images/creativity.jpeg';
 import Aos from "aos";
 import "aos/dist/aos.css";

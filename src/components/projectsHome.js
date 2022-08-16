@@ -1,7 +1,4 @@
 import React from "react"
-import processimg from "../images/research.png"
-import Carousel from "react-elastic-carousel"
-import Item from "./item"
 import { Link } from "gatsby"
 import Rectangle from "../images/Rectangle.png"
 import ScrollContainer from "react-indiana-drag-scroll"
@@ -23,7 +20,7 @@ const ProjectsHome = () => {
     Aos.init({ duration: 2000 })
   }, [])
   return (
-    <div className="font">
+    <div className="font" id="projects">
       <li data-aos="fade-right" className="heading-ab">
         Featured Projects{" "}
       </li>

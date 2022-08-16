@@ -8,7 +8,7 @@ const Kontakt = () => {
         Aos.init({ duration: 2000 });
     }, []);
     return (
-        <div className="abcdefgh">
+        <div className="abcdefgh" id='contact-section'>
             <li data-aos="fade-right" className="heading-ab">Contact us </li>
             <div className="grid1">
                 <div className="main1">
